@@ -44,7 +44,7 @@ public void mouseDragged()
 {
   fill(254);
   noStroke();
-  ellipse(mouseX,mouseY,40,40);
+  ellipse(mouseX,mouseY,60,60);
   //your code here
 }
 
@@ -83,7 +83,7 @@ class SnowFlake
   public void erase()
   {
     fill(0);
-    ellipse(myX,myY-1,ranSiz+4,ranSiz+4); 
+    ellipse(myX,myY-1,ranSiz+6,ranSiz+6); 
     //your code here
   }
   public void move()

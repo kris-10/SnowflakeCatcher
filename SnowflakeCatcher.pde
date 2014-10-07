@@ -28,7 +28,7 @@ void mouseDragged()
 {
   fill(254);
   noStroke();
-  ellipse(mouseX,mouseY,40,40);
+  ellipse(mouseX,mouseY,60,60);
   //your code here
 }
 
